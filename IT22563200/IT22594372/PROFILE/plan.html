@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plan</title>
+    <link rel="stylesheet" href="plan.css">
+</head>
+<body>
+<section id="header">
+    <div class="logo">
+        <a href="#"><img src="logo.jpg"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="View Land">View Land</a></li>
+            <li><a href="Draw Plan">Draw Plan</a></li>
+            <li><a href="View Customer Requirments">View Customer Requirements</a></li>
+            <li><a href="Current Status">Current Status</a></li>
+        </ul>
+        <form class="search-form">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            <div class="profile">
+                <a href="#"><img src="profile.png" height="60px" width="60px"></a>
+            </div>
+        </form>
+    </nav>
+</section>
+<h2>
+    <p class="Drawplan"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Draw Plan </p>
+</h2>
+<hr>
+<div class="em">
+    <form action="save_plan.php" method="post" class="pform" enctype="multipart/form-data">
+        <table class="ptable">
+            
+            
+            
+            <tr>
+                <td><br>Plan:</td>
+                <td><br><input type="file" id="plan" accept=".jpg, .jpeg, .png" name="image"></td>
+            </tr>
+            <tr>
+                <td><br>Budget:</td>
+                <td><br><input type="text" id="Budget" name="Budget" placeholder="Rs"></td>
+            </tr>
+            <tr>
+                <td><br><button type="submit" name="submit">Submit</button></td>
+                <td><br><a href="plan_table.php" class="button">View Table</a></td>
+                
+            </tr>
+            
+            
+        </table>
+    </form>
+    
+</div>
+
+
+<section id="footer">
+    <div class="end">
+        <div class="box1">
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="#">About</a></li><br>
+                <li><a href="#">Gallery</a></li><br>
+                <li><a href="#">Career</a></li><br>
+                <li><a href="#">Contact</a></li><br>
+            </ul>
+        </div>
+        <div class="box2">
+            <h2>Address</h2>
+            <h3>The Home Construction<br>No. 245,</h3>
+            <h3>Pallimulla,</h3>
+            <h3>Matara, Sri Lanka</h3>
+        </div>
+        <div class="box3">
+            <div class="g"><a href="gmail"><img src="twitter.jpg" width="40px" height="80px"></a></div>
+            <div class="t"><a href="twitter"><img src="google.jpg" width="40px" height="40px"></a></div>
+            <div class="f"><a href="facebook"><img src="facebook.jpg" width="40px" height="40px"></a></div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

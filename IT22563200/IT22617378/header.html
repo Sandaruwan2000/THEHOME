@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+           width: 100%;
+           background-color:black;
+           overflow: auto;
+       }
+       ul{
+           padding: 0;
+           margin: 0 0 0 150px;
+           list-style: none;
+       }
+       li{
+           float: left;
+       }
+       .logo img{
+           position: absolute;
+           margin-top:15px ;
+           margin-bottom: 10px;
+           width: 60px;
+           height: 60px;
+       }
+       nav a{
+           width: 200px;
+           height: 50PX;
+           display: block;
+           padding: 25px 15px;
+           text-decoration:none ;
+           color:white;
+           text-align: center;
+           font-size: 25PX;
+       }
+       nav a:link{
+           color: white; 
+       }
+       nav a:visited{
+           color: cadetblue;
+       }
+       nav   a:hover{
+           color: red;
+       }
+       nav a:active{
+           color:red;
+       }
+       .search-form{
+           margin-top: 15px;
+           float: right;
+           margin-right: 100px;
+       }
+       input [type=text]{
+           padding: 7 pxpx;
+           font-size: 16px;
+          
+       }
+       button{
+           float: right;
+           background-color: orange;
+           position: relative;
+           padding: 7px;
+           font-size: 16px;
+
+       }
+       </style>
+</head>
+<body>
+    <div class="logo"><a href="#"><img src="logo.jpeg"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="view the project.php">View the project</a></li>
+            <li><a href="send message.php">send message</a></li>
+            <li><a href="current status.php">Update the current status</a></li>
+            <li><a href="index.php">Add</a></li>
+        </ul>
+        <form class="search-form">
+            <input type="text" placeholder="search">
+            <button>Search</button>
+        </form>
+    </nav>
+    
+</body>
+</html>

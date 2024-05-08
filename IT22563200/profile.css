@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'popins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.vtype{
+    height: 470px ;
+}
+.pro{
+    border-radius: 7px;
+    border-color: black;
+}
+table{
+    position: relative;
+    top:180px ;
+    left:330px ;
+    background-color:rgb(228, 228, 220);
+}
+
+
+table ,th ,td {
+    border:solid 1px black ;
+   
+    padding: 10px;
+    width:250px ;
+    width: 500px;
+   
+ 
+    
+}
+
+
+.a{
+    background-color:lightyellow;
+}
+.t{
+    background-color:white ;
+}
+
+.bt{
+    width: 70px;
+    height: 30px;
+    border-radius:7px ;
+    font-size: small;
+    background-color:black;
+    border-color: black;
+    color: white;
+    position: relative;
+    top:200px ;
+    left:780px ;
+}
+.fo{
+    top:800px
+}

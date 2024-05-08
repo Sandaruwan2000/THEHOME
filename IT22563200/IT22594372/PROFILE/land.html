@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Architecturer</title>
+        <link rel="stylesheet" href="land.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+        <div class="logo"><a href="#"><img src="logo.jpg"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="View Land">View Land</a></li>
+                <li><a href="Draw Plan">Draw Plan</a></li>
+                <li><a href="View Customer Requirments">View Customer Requirments</a></li>
+                <li><a href="Current Status">Current Status</a></li>
+            </ul>
+            <form class="search-form">
+                <input type="text" placeholder="search">
+                <button>Search</button>
+                <div class="profile"><a href="#"><img src="profile.png" height="60px" width="60px"></a>
+        </div>
+            </form>
+        </nav>
+        </section>
+        <h2><p class="viewland"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; View Land </h2></p>
+       <hr>
+        
+       
+       <section id="body">
+      </div> <section id="body">
+      <div class="container">
+        <div class="image">
+          <img src="land5.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="land6.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="land1.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="land2.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="land4.jpg" alt="" />
+        </div>
+        
+
+        <div class="button">
+          <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+          <a onclick="nextimg(1)" class="next">&#10095;</a>
+        </div>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+      <div class="paragraph">
+        <p>Introducing "The Kingdom Matara" in Sri Lanka, the latest addition to Prime Lands' real estate offerings.
+          These exclusive lands in Matara attractforeign investors and offer a tropical paradise experience near Mirissa beach.With the upcoming relocation of the main bus stand to 
+          Labeema town,investing in these lands  is financially advantageous. The location provides easy access to key points such as Labeema Junction,
+          Kamburugamuwa Junction,Matara town, Mirissa beach, Mirissa town, and the Matara-Labeema main road.The Matara highway entrance is also conveniently close. Choose Labeema 
+          for an exclusive, tranquil,and urban lifestyle.
+
+        </p>
+
+      <script>
+        var imageno = 1;
+        displayimg(imageno);
+
+        function nextimg(n) {
+          displayimg((imageno += n));
+        }
+
+        function currentSlide(n) {
+          displayimg((imageno = n));
+        }
+
+        function displayimg(n) {
+          var i;
+          var image = document.getElementsByClassName("image");
+          var dots = document.getElementsByClassName("dot");
+
+          if (n > image.length) {
+            imageno = 1;
+          }
+
+          if (n < 1) {
+            imageno = image.length;
+          }
+
+          for (i = 0; i < image.length; i++) {
+            image[i].style.display = "none";
+          }
+
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+          image[imageno - 1].style.display = "block";
+          dots[imageno - 1].className += " active";
+        }
+      </script>
+    </section>
+
+
+
+       <br>
+       <br>
+       <br>
+       
+       <section id="footer">
+        <div class="end">
+            <div class="box1">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About</a></li><br>
+                    <li><a href="#">Galllery</a></li><br>
+                    <li><a href="#">carrer</a></li><br>
+                    <li><a href="#">Contact</a></li><br>
+                </ul>
+            </div>
+            <div class="box2">
+                <h2>Address</h2>
+                <h3>The home Construction<br>No. 245,</h3>
+                <h3>Pallimulla,</h3>
+                <h3>Matara,SriLanka</h3>
+
+            </div>
+            <div class="box3">
+                <div class="g"><a href="gmail"><img src="twitter.jpg" width="40px"height="80px"></a></div>
+                <div class="t"><a href="twitter"><img src="google.jpg" width="40px"height="40px"></a></div>
+                <div class="f"><a href="facebook"><img src="facebook.jpg" width="40px" height="40px"></a></div>
+                    
+            </div>
+            
+
+        </div>
+    </section>
+        
+    </body>
+</html>

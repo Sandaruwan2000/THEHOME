@@ -1,0 +1,56 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+
+
+
+.table{
+  position: relative; 
+  top:100px ;
+  
+}
+
+
+
+.table ,th ,td {
+    border: 1px solid black;
+     border-collapse: collapse;
+    padding: 10px;
+    width:100px ;
+ 
+   
+}
+.table.vr {
+    margin-left: 20px; 
+    position: relative;
+    top: 1000px;
+    
+  }
+  .addnew{
+    position: relative;
+    float: right;
+    left:-100px ;
+    position: relative;
+    top :300px ;
+  }
+
+  
+  .vr{
+    position: relative;
+    top:-100px ;
+  }
+.a{
+    background-color:light;
+    
+}
+.edit{
+    background-color:red;
+}
+.delete{
+    background-color:red;
+}
+

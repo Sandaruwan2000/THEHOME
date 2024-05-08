@@ -1,0 +1,32 @@
+
+.contact-button2 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-button2 a {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  background-color: #817c78;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.contact-button3 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-button3 a {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  background-color: #817c78;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}

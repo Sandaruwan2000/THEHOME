@@ -1,0 +1,260 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "popins", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+body {
+  background-color: white;
+}
+.header {
+  font-size: large;
+  position: sticky;
+  box-shadow: var(box-shadow);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 100px;
+}
+
+.logon {
+  color: white;
+  font-size: larger;
+  position: relative;
+  top: 30px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+}
+
+.navbar {
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
+  font-size: large;
+  text-decoration: none;
+  text-align: right;
+  padding-left: 220px;
+  position: relative;
+  top: -30px;
+}
+.navbar ul {
+  display: inline-flex;
+  list-style: none;
+  position: relative;
+}
+.navbar ul li {
+  margin: 10px;
+  left: 40px;
+  bottom: 15px;
+  position: relative;
+  text-align: right;
+}
+.navbar ul li a {
+  color: white;
+}
+.navbar ul input[type="text"] {
+  float: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
+  border: none;
+  font-size: large;
+  position: relative;
+  top: -23px;
+  right: -60px;
+  width: 70px;
+}
+.navbar ul input[type="text"]:focus {
+  width: 200px;
+}
+.log ul {
+  display: inline-flex;
+  list-style: none;
+  position: relative;
+  float: right;
+  top: -100px;
+  right: 25px;
+}
+
+.log ul li {
+  position: relative;
+  top: 10px;
+}
+
+.log ul li a {
+  font-size: large;
+  color: white;
+}
+.login {
+  width: 90px;
+  height: 90px;
+  float: right;
+  padding: 10px;
+  position: relative;
+  top: -140px;
+  border: 1px solid white;
+  right: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.bg-img {
+  background-image: url("CNS.jpg");
+}
+
+.container {
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #f3eaea;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #f77205;
+  background: -o-linear-gradient(90dec, #f77205, #d1cfc4);
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+/* alert.css */
+
+.alert {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+}
+
+.failure {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the header */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the actions links */
+a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Styles for the Edit button */
+.edit-button {
+  background-color: #f77205;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Styles for the Delete button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #f77205;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+Project group ID: MLB_07.02_05
+Batch NO: 07.02
+Topic:Construction Management System.
+Project link: https://mysliit-my.sharepoint.com/:u:/g/personal/it22563200_my_sliit_lk/EfLsIc-8HNNLidhdYSp-ojgB9IqFyVWFpuXe3n5J8ZvfOg?e=P8Cgmd
+
+Group Member Details.
+
+MemberId    Member_Name       Contact_no  email                         	implemented_function
+
+IT22617378  Ishani S.G.C      0760515452  chamishka.isg@gmail.com        	log in,Project manager profile,news page
+	
+IT22563200  Jayawardhana L.S  0761799001  lahirusandharuwan109@gmail.com  	home page,customer profile
+
+IT22628404  M.R.Fathima Safwa 0722166691  safwarauf@gmail.com             	sign up
+
+IT22608222  D.S.Nethmi        0701664424  sewminiweerakkody1004@gmail.com 	supplier,gallery
+            Weerkkody
+
+IT22594372  W.W.G.D.Vihani    0770224617  divanavihani6@gmail.com          	architectutre,about us    
+
+
+                                                                       

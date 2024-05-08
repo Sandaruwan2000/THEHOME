@@ -1,0 +1,149 @@
+nav{
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    margin-top:15px ;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+nav a{
+    width: 200px;
+    height: 50PX;
+    display: block;
+    padding: 25px 15px;
+    text-decoration:none ;
+    color:white;
+    text-align: center;
+    font-size: 25PX;
+}
+.logon{
+        color:white ;
+        font-size: larger;
+        position:relative;
+        top:30px ;
+    }
+nav a:link{
+    color: white; 
+}
+nav a:visited{
+    color: red;
+}
+nav   a:hover{
+    color: red;
+}
+nav a:active{
+    color:red
+}
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+}
+input [type=text]{
+    padding: 7 pxpx;
+    font-size: 16px;
+   
+}
+button{
+    float: right;
+    background-color: orange;
+    position: relative;
+    padding: 7px;
+    font-size: 16px;
+
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkorange;
+  }
+
+
+
+.btn1{
+   padding: 10px;
+   background-color: green;
+   color: white;
+   border-radius: 7px;
+   cursor: pointer;
+   width: 50px;
+   margin-top: 10px;
+}
+.g,.f,.t{
+    
+    
+    position: relative;
+    float: left;
+   left: 800px;
+}
+.f a{
+    position:relative ;
+    top:25px;
+    left:10px;
+}
+.t a{
+    position: relative;
+    top:25px;
+}
+
+.box1,.box2,.box3{
+    float: left;
+    margin-right: 40px;
+    background-color: black;
+}
+.box1 ul li a{
+
+   position: relative;
+   left:-130px ;
+   text-decoration: none;
+}
+.box2{
+    position: relative;
+    left :200px ;
+    top:0px ;
+    width :200px ;
+    height: 150px;
+}
+.end{
+    width: 1500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    
+}
+.profile
+{
+    
+        position: absolute;
+        margin-top:-50px ;
+        left: 1350px;
+        width: 60px;
+        height: 60px;
+
+}
+.button{
+    margin:left;
+
+}
+  

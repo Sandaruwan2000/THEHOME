@@ -1,0 +1,63 @@
+table{
+  position: relative; 
+  top:200px ;
+  
+  
+}
+
+
+
+table ,th ,td {
+   
+     border: solid 1px black;
+     border-collapse: collapse;
+    padding: 10px;
+    width:100px ;
+
+   
+}.vr {
+    margin-left: 20px;
+    width: 700px; 
+    position: relative;
+    top: 200px;
+    left:200px ;
+    background-color:rgb(235, 231, 231);
+  
+    
+  }
+  .addnew{
+    border-radius:10px ;
+    border: solid 1px black;
+    position: relative;
+    float: right;
+    left:-150px ;
+    position: relative;
+    top :100px ;
+    width: 100px;
+    height: 30px;
+  }
+  .vtype{
+    height: 800px;
+  }
+  body {
+    background-image:url(img/b5.jpg);
+    background-color: #cccccc;
+    background-size: 1270px 830px;
+  }
+.edit{
+  border-radius: 7px;
+  background-color: red;
+
+  color: black;
+  width: 50px;
+  height: 20px;
+   color: white;
+}
+.delete{
+  border-radius: 7px;
+  background-color: rgb(12, 214, 55);
+  color: black;
+  width: 50px;
+  height: 20px;
+   color: white;
+}

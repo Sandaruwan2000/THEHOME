@@ -1,0 +1,15 @@
+CREATE TABLE users (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	TypesOfSupplies VARCHAR(255) NOT NULL,
+	NameofBusinessorPerson VARCHAR(255) NOT NULL,
+	BusinessRegistratinorNICNo INT(15) NOT NULL,
+	RegisteredAddress VARCHAR(255) NOT NULL,
+	ContactNumber INT(10) NOT NULL,
+	FaxNumber INT(10) NOT NULL,
+	EmailAddress VARCHAR(255) NOT NULL,
+	WebSite VARCHAR(255) NOT NULL,
+	VATRegistratinNumber INT(15) NOT NULL,
+	SVATRegistratinNumber INT(15) NOT NULL,
+	Bankrelatedtotransaction VARCHAR(255) NOT NULL,
+	AccountNo INT(20) NOT NULL,
+	DeliveryTerms VARCHAR(255) NOT NULL,)

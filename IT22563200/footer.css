@@ -1,0 +1,9 @@
+.footer{
+    height: 100px;
+    background-color: rgba(6,147,227,1);
+}
+.logo{
+    width:300px;
+    height: 100px;
+    float: right;
+}

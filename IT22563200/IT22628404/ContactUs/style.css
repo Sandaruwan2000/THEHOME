@@ -1,0 +1,127 @@
+.container {
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 100px;
+  padding: 20px;
+  padding-bottom: 80px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: center;
+  color: #f35900;
+}
+h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+form input,
+form textarea {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #6b442d88;
+  border-radius: 20px;
+  background-color: transparent;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #f35900;
+ 
+}
+form textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #f35900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+
+body {
+  background-image: url("image/Img.jpeg");
+  background-size: cover;
+  background-position: flex;
+}
+.contact-button1 {
+ display: inline-block;
+  margin: 35px;
+  height: 10px;
+
+
+ 
+}
+
+.contact-button1 a {
+  display: flex;
+  align-items: center;
+  padding: 5px 100px 5px 100px;
+  text-decoration: none;
+  background-color: #817c78;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+.contact-button2 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-button2 a {
+  display: flex;
+  align-items: center;
+  padding: 10px 100px 10px 100px;
+  text-decoration: none;
+  background-color: #817c78;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.contact-button3 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-button3 a {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  background-color: #817c78;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+div.foot{
+  position: relative;
+  left:500px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratin Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <header>Registration Form</header>
+
+        <form action="message.php" method="post">
+            <div class="form first">
+                <div class="section 1">
+                    <span class="title">Supplier/Sub Contractor Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Types Of Supplies</label>
+                            <!-- market supply, short-term supply, long-term supply, joint supply, and composite supply -->
+                            <input type="text" name="TypesOfSupplies" placeholder="Types Of Supplies" >
+                        </div>
+                        <div class="input-field">
+                            <label>Name of Business or Person</label>
+                            <input type="text" name="NameofBusinessorPerson" placeholder="Enter name of business or person" >
+                        </div>
+                        <div class="input-field">
+                            <label>Business Registratin or NIC No</label>
+                            <input type="text" name="BusinessRegistratinorNICNo" placeholder="Enter business Registratin or NIC No" >
+                        </div>
+                        <div class="input-field">
+                            <label>Registered Address</label>
+                            <input type="text" name="RegisteredAddress" placeholder="Registered Address"  >
+                        </div>
+                        <div class="input-field">
+                            <label>Contact Number</label>
+                            <input type="tel" name="ContactNumber" placeholder="Tel" >
+                        </div>
+                        <div class="input-field">
+                            <label>Fax Number</label>
+                            <input type="tel" name="FaxNumber" placeholder="Fax" >
+                        </div>
+                        <div class="input-field">
+                            <label>E-mail Address</label>
+                            <input type="email" name="EmailAddress" placeholder="Enter your email" >
+                        </div>
+                        <div class="input-field">
+                            <label>Web Site</label>
+                            <input type="text" name="WebSite" placeholder="Enter web site" >
+                        </div>
+                        <div class="input-field">
+                            <label>VAT Registratin Number</label>
+                            <input type="number" name="VATRegistratinNumber" placeholder="VAT Registratin Number" >
+                        </div>
+                        <div class="input-field">
+                            <label>SVAT Registratin Number</label>
+                            <input type="number" name="SVATRegistratinNumber" placeholder="SVAT Registratin Number" >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section 2">
+                    <span class="title">Bank Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Bank related to transaction</label>
+                            <input type="text" name="Bankrelatedtotransaction" placeholder="Yes/No" >
+                        </div>
+                        <div class="input-field">
+                            <label>Account No</label>
+                            <input type="number" name="AccountNo" placeholder="Enter account number" >
+                        </div>
+                        <div class="input-field">
+                            <label>Delivery Terms</label>
+                            <input type="number" name="DeliveryTerms" placeholder="Enter delivery terms" >
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

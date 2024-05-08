@@ -1,0 +1,65 @@
+.pform{
+    border:solid 5px rgb(112, 110, 110); 
+    border-radius: 20px;
+    background-color:rgb(237, 229, 229);
+   color: hsl(0, 87%, 3%);
+    width:500px;
+    height: 500px ;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top:200px;
+    left:400px;  
+}
+
+.fo{
+    position: fixed;
+    top: 100px;
+}
+
+.pform input{
+    height: 20px;
+    
+    
+}
+.ptable{
+    padding: 20px;
+    border-spacing: 10px;
+    position: relative;
+   
+  
+
+   
+    
+    
+}.pform button{
+    width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:green;
+    color:white;
+    position: relative;
+    top:20px;
+    left: 250px;
+
+}.view{
+    width: 100px; 
+    height: 25px;  
+    border-radius: 7px; 
+    background-color:black;
+    color:white;
+    position: relative;
+    top:200px ;
+    left :820px;
+}
+.em{
+    height: 800px;
+    
+}
+ body {
+    background-image:url(img/b3.jpg);
+    background-color: #cccccc;
+    background-size: 1270px 830px;
+    
+   
+  }
